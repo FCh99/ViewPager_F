@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(FragmentThree(), "Three")
         adapter.addFragment(FragmentFour(), "Four")
 
-        viewPager.adapter = adapter
-        tabs.setupWithViewPager(viewPager)
+        viewPagerID.adapter = adapter
+        tabsID.setupWithViewPager(viewPagerID)
     }
 
 
